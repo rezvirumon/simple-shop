@@ -9,5 +9,24 @@
         flex-direction: column;
         gap: 15px;
     }
+    .banner-section {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+        gap: 50px;
+    }
+    
+    .text-container{
+        width: 100%;
+        
+    }
+    .banner-image-container{
+        width: 100%;
+        order: 2;
+    }
 
 }
+
+
+/* banner-section-start-here */
+
