@@ -2,6 +2,7 @@
     .header-section {
         flex-direction: column;
         padding: 25px;
+        margin-left: -50px;
     }
 
     .container-items {
