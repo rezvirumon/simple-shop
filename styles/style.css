@@ -91,6 +91,7 @@ header {
 
 .banner-image-container {
     width: 50%;
+    position: relative;
 }
 
 
@@ -137,4 +138,61 @@ span {
     padding: 10px 20px;
     color: black;
     border-radius: 5px;
+}
+
+.discount img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(217, 19, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom:65%;
+    left: 2%;
+}
+
+
+/* product-styles */
+.product-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.grid-container{
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.single-product{
+    padding: 10px;
+    background-color: #e6e9eb;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.single-product img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.heading-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    background-color: #9376e0;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
 }
